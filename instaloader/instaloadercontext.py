@@ -272,14 +272,18 @@ class InstaloaderContext:
             HEADERS = {
                 "User-Agent": (
                     "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) "
-                    "AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 "
-                    "Instagram 275.0.0.27.98 (iPhone15,2; iOS 17_0; en_US; scale=3.00; 1179x2556; 234567890) NW/1"
+                    "AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 "
+                    "Instagram 363.1.0.35.112 (iPhone15,3; iOS 17_0; en_US; scale=3.00; 1290x2796; 345678901) NW/1"
                 ),
                 "Accept": "*/*",
-                "Accept-Encoding": "gzip, deflate",
-                "Accept-Language": "en-US,en;q=0.5",
+                "Accept-Encoding": "gzip, deflate, br",
+                "Accept-Language": "en-US,en;q=0.9",
                 "X-Requested-With": "XMLHttpRequest",
                 "Referer": "https://www.instagram.com/accounts/login/",
+                "Connection": "keep-alive",
+                "Sec-Fetch-Mode": "cors",
+                "Sec-Fetch-Dest": "empty",
+                "Sec-Fetch-Site": "same-origin",
             }
 
             session.headers.update(HEADERS)
