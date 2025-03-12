@@ -1,0 +1,23 @@
+.mypy_cache/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environment
+venv_instaloader/
+env/
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore build files
+build/
+dist/
+*.egg-info/
